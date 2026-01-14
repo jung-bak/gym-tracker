@@ -12,6 +12,10 @@ const notFoundHtml = path.join(distDir, '404.html');
 try {
   fs.copyFileSync(indexHtml, notFoundHtml);
   console.log('Successfully copied index.html to 404.html');
+
+  const noJekyllPath = path.join(distDir, '.nojekyll');
+  fs.writeFileSync(noJekyllPath, '');
+  console.log('Created .nojekyll file');
 } catch (err) {
   console.error('Error copying file:', err);
   process.exit(1);
