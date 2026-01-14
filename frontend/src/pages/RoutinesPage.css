@@ -1,0 +1,155 @@
+.routines-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.routines-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.routine-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--bg-secondary);
+  border-radius: 12px;
+}
+
+.routine-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.routine-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.routine-details {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.routine-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.modal.large {
+  max-height: 85vh;
+}
+
+.routine-exercises-section {
+  margin-bottom: 1rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.btn-small {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.empty-exercises {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.provision-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.provision-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+}
+
+.provision-order {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-color);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.provision-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.provision-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.provision-inputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.provision-inputs label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.625rem;
+  color: var(--text-secondary);
+}
+
+.provision-inputs input {
+  width: 60px;
+  padding: 0.375rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+}
+
+.provision-remove {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  font-size: 1.25rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.provision-remove:hover {
+  color: #ef4444;
+}
