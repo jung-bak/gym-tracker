@@ -1,0 +1,131 @@
+.history-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sessions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.session-card {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.session-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.session-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.session-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.session-date {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.session-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.session-stat {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.expand-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-tertiary);
+  border-radius: 50%;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.session-details {
+  padding: 0 1rem 1rem 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.session-summary {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.75rem 0;
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.summary-label {
+  font-size: 0.625rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+}
+
+.summary-value {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.session-exercises {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.history-exercise {
+  padding: 0.5rem;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+}
+
+.history-exercise-name {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.history-sets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+.history-set {
+  padding: 0.25rem 0.5rem;
+  background: var(--bg-secondary);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
